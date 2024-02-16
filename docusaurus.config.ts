@@ -84,10 +84,12 @@ const config: Config = {
               label: "チュートリアル",
               to: "/docs/tutorial/intro",
             },
+            /*
             {
               label: "コンセプト",
               to: "/docs/concepts/intro",
             },
+            */
             {
               label: "リファレンス",
               to: "/docs/reference/intro",

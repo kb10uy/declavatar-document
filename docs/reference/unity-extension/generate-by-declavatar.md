@@ -35,4 +35,4 @@ Generate By Declavatar コンポーネントどうしや他の [MA MenuInstaller
 
 ## `External Assets` (外部アセットリスト)
 
-[DeclavatarExternalAsset](./external-asset.md) を指定します。複数セットすることが可能で、先頭から順番に検索対象になります。
+[DeclavatarExternalAsset](./external-assets.md) を指定します。複数セットすることが可能で、先頭から順番に検索対象になります。

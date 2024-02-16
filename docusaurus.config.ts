@@ -57,6 +57,12 @@ const config: Config = {
         },
         {
           type: "docSidebar",
+          sidebarId: "conceptsSidebar",
+          position: "left",
+          label: "コンセプト",
+        },
+        {
+          type: "docSidebar",
           sidebarId: "referenceSidebar",
           position: "left",
           label: "リファレンス",

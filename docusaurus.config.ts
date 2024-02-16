@@ -78,16 +78,24 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "ドキュメント",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "チュートリアル",
+              to: "/docs/tutorial/intro",
+            },
+            {
+              label: "コンセプト",
+              to: "/docs/concepts/intro",
+            },
+            {
+              label: "リファレンス",
+              to: "/docs/reference/intro",
             },
           ],
         },
         {
-          title: "Repositories",
+          title: "関連リポジトリ",
           items: [
             {
               label: "declavatar",
@@ -112,7 +120,7 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "その他",
           items: [
             {
               label: "@kb10uy @ twitter.com",

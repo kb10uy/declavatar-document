@@ -66,6 +66,12 @@ const config: Config = {
           label: "リファレンス",
         },
         {
+          type: "docSidebar",
+          sidebarId: "examplesSidebar",
+          position: "left",
+          label: "実例",
+        },
+        {
           href: "https://github.com/kb10uy/declavatar",
           label: "GitHub",
           position: "right",
@@ -136,6 +142,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ["scheme"],
     },
   } satisfies Preset.ThemeConfig,
 };

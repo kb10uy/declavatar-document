@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "declavatar",
   tagline: "Declarative Avatar Asset Composing Tool",
-  favicon: "img/favicon.ico",
+  favicon: "images/favicon.png",
 
   url: "https://declavatar.kb10uy.dev",
   baseUrl: "/",
@@ -39,15 +39,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // image: "img/docusaurus-social-card.jpg",
+    image: "images/declavatar-card.png",
     navbar: {
       title: "declavatar",
-      /*
       logo: {
         alt: "declavatar logo",
-        src: "img/logo.svg",
+        src: "images/declavatar.svg",
       },
-      */
       items: [
         {
           type: "docSidebar",
@@ -84,12 +82,6 @@ const config: Config = {
               label: "チュートリアル",
               to: "/docs/tutorial/intro",
             },
-            /*
-            {
-              label: "コンセプト",
-              to: "/docs/concepts/intro",
-            },
-            */
             {
               label: "リファレンス",
               to: "/docs/reference/intro",
